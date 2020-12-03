@@ -1,5 +1,14 @@
+/* Trabajo en TERMINAL TypeScriptLang.org
+tsc -v para ver versión de ts
+tsc app1.ts para compilar a JS
+tsc app1.ts -w (añade watching, compila cambios sobre la marcha)
+
+tsc -init (crea un archivo tsconfig.json)
+tsc -w (hace watching a toda la carpeta, cada nuevo archivo ts lo compila a JS)
+*/
 console.log('hola mundo');
-// tipos de datos en TypeScript
+
+// Tipos de datos en TypeScript
 
 //string
 
@@ -16,7 +25,7 @@ let verdadFalso:boolean = false;
 
 //any
 
-let caulquiera:any = "cualquier cosa";
+let cualquiera:any = "cualquier cosa";
 
 // string[]
 
