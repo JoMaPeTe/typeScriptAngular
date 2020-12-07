@@ -25,4 +25,8 @@ export class EquipoService {
   obtenerEquipo(){
     return this.equipo
   }
+
+  obtenerUno(i:number){
+    return this.equipo[i]
+  }
 }
