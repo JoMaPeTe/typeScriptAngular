@@ -8,7 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
-
+import { EquipoService } from './equipo.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +22,7 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [EquipoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
